@@ -25,9 +25,22 @@
                         <li class="header__menu__links">Документация</li>
                         <li class="header__menu__links">Контакты</li>
                     </ul>
-
                 </div>
+                <div class="header__block__right">
+                    <div class="header__phone__number">
+                        <p class="phone__number__text">+7 (912) 777-54-45</p>
+                        <div class="phone__number__btn__block">
+                            <a class="phone__number__btn" href="">Заказать звонок</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="header__request">
+                    <a class="header__request__btn" href="">Оставить заявку</a>
+                </div>
+
             </div>
+
         </div>
 
     </header>

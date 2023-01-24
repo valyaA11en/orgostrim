@@ -42,7 +42,7 @@ body {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .wrapper {
@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1220px;
     margin: 0 auto;
     display: block;
 }
@@ -70,30 +70,82 @@ main {
     width: 100%;
 
 }
-.header__logo__block{
+
+.header__logo__block {
     display: flex;
     align-items: center;
 }
-.header__language__btn_{
+
+.header__language__btn_ {
     display: flex;
     justify-content: center;
 }
+
 .header__logo {
-    margin: 19px 40px;
+    margin:18px 40px 18px 0;
 }
 
 .header__language__text {
     color: white;
     text-decoration: underline;
 }
-.header__menu__block{
+
+.header__menu__block {
     margin-left: 58px;
 }
-.header__menu{
+
+.header__menu {
     display: flex;
     gap: 35px;
 }
-.header__menu__links{
+
+.header__menu__links {
     color: white;
     text-decoration: underline;
+    line-height: 15px;
+}
+
+.header__phone__number {
+    align-items: center;
+    margin-left: 70px;
+}
+
+.phone__number__text:before {
+    content: url("/resources/src/images/phone.png");
+    position: relative;
+    right: 12px;
+    top: 10px;
+
+}
+.header__block__right{
+    display: flex;
+}
+.phone__number__text {
+    color: white;
+    font-size: 19px;
+}
+.header__phone__number{
+
+    padding-right: 10px;
+}
+
+.phone__number__btn {
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: start;
+
+}
+.phone__number__btn__block{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.header__request__btn {
+    background-color: rgba(0, 172, 227, 1);
+    color: white;
+    padding: 13px 32px;
+    border-radius: 8px;
+    line-height: 17px;
+    margin: 5px;
 }
