@@ -12,31 +12,29 @@
 <div class="wrapper">
     <header class="header">
         <div class="container">
-            <div class="header__wrap">
-                <img class="header__logo" src="/img/logo1.png" alt="logo">
-                <div class="header__presentation">
-                    <a class="header__presentation__btn" href="#">Наша презентация</a>
-                </div>
+            <div class="header__logo__block">
+                <img class="header__logo" src="/resources/src/images/logo1.png" alt="logo">
                 <div class="header__language">
-                    <img src="/img/russia-svgrepo-com.png" alt="russia" class="language__icon">
-                    <p class="language__text">Ru</p>
+                    <img src="/resources/src/images/russia-svgrepo-com.png" alt="Ru">
+                    <a class="header__language__text" href="">Ru</a>
                 </div>
-            </div>
-            <div class="header__phone__block">
-                <div class="number__phone__card">
-                    <p class="number__phone__text">+7 (912) 777-54-45</p>
+                <div class="header__menu__block">
+                    <ul class="header__menu">
+                        <li class="header__menu__links">Продукция</li>
+                        <li class="header__menu__links">Партнерам</li>
+                        <li class="header__menu__links">Документация</li>
+                        <li class="header__menu__links">Контакты</li>
+                    </ul>
+
                 </div>
             </div>
         </div>
 
     </header>
     <main class="main">
-        <video class="main__background__video" autoplay muted loop id>
-            <source class="background__video" src="img/background-video.mp4" type="video/mp4"/>
-        </video>
-        <p></p>
+        2
     </main>
-    <footer class="footer">2</footer>
+    <footer class="footer">3</footer>
 </div>
 <script src="resources/js/app.js"></script>
 </body>
