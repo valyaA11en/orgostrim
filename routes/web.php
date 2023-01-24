@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+Route::get('/',[\App\Http\Controllers\Controller::class,'index'])->name('/');
+Route::post('/index',[\App\Http\Controllers\Controller::class,'index']);
