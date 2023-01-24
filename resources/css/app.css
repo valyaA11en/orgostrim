@@ -86,3 +86,14 @@ main {
     color: white;
     text-decoration: underline;
 }
+.header__menu__block{
+    margin-left: 58px;
+}
+.header__menu{
+    display: flex;
+    gap: 35px;
+}
+.header__menu__links{
+    color: white;
+    text-decoration: underline;
+}
