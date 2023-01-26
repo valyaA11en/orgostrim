@@ -17,6 +17,12 @@ ul,
 ol,
 li {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
 }
 
 img {
@@ -32,6 +38,7 @@ h6 {
     font-family: inherit;
 }
 
+.
 html,
 body {
     height: 100%;
@@ -40,17 +47,18 @@ body {
 
 body {
     font-family: 'Comfortaa', cursive;
-    font-weight: bold;
     line-height: 30px;
     font-size: 15px;
 }
+
 /*Общие стили*/
-.title{
+.title {
     font-weight: 700;
     font-size: 3.7vh;
     line-height: 6.1vh;
     margin-top: 57px;
 }
+
 /****************/
 .wrapper {
     min-height: 100%;
@@ -75,11 +83,11 @@ main {
     background-size: cover;
     position: absolute;
     width: 100%;
-z-index: 2;
+    z-index: 2;
 }
 
 
-.header__language__btn_ {
+.header__language__btn {
     display: flex;
     justify-content: center;
 }
@@ -91,10 +99,6 @@ z-index: 2;
 .header__language__text {
     color: white;
     text-decoration: underline;
-}
-
-.header__menu__block {
-    margin-left: 58px;
 }
 
 .header__menu {
@@ -109,8 +113,10 @@ z-index: 2;
 }
 
 .header__phone__number {
-    align-items: center;
-    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
 
 .phone__number__text:before {
@@ -175,16 +181,26 @@ z-index: 2;
 
 
 /*Главная страница*/
-.intro{
+.intro {
     max-height: 100vh;
     overflow: hidden;
 }
+
 .main__intro {
     position: relative;
     padding-bottom: 56.25%;
     height: auto;
     z-index: -5;
+}
 
+.main__intro:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .intro__video {
@@ -194,7 +210,7 @@ z-index: 2;
     left: 0;
 }
 
-.intro__content{
+.intro__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,47 +221,85 @@ z-index: 2;
     top: 0;
     left: 0;
 }
-.intro__title{
+
+.intro__title {
     color: white;
     font-weight: 600;
     font-size: 9.7vh;
     padding: 60px;
 }
-.intro__text{
+
+.intro__text {
     color: white;
     font-weight: 600;
     font-size: 3.6vh;
 }
-.intro__description{
+
+.intro__description {
     color: white;
     font-size: 6.6vh;
     line-height: 70px;
     margin-top: 100px;
 }
 
-.intro__btn{
+.intro__btn {
     padding: 22px 35px;
     background-color: #FF0041;
     color: white;
     border-radius: 13px;
 }
-.intro__btn__block:after{
-    content:url("/resources/src/images/arow_btn.svg");
-    /*background-image: ;*/
+
+.intro__btn__block:after {
+    content: url("/resources/src/images/arow_btn.svg");
     position: relative;
     right: 400px;
 
 }
-.intro__btn:hover{
+
+.intro__btn:hover {
     background-color: rgba(202, 0, 51, 1);
 }
 
 /*Наши товары*/
-.products__card__text{
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
+.products__title {
+    margin-bottom: 47px;
 }
-.card__title{
 
+.products__card__text {
+
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 13px 16px -7px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 2px 13px 16px -7px rgba(34, 60, 80, 0.2);
+    box-shadow: 2px 13px 16px -7px rgba(34, 60, 80, 0.2);
+    padding: 0;
+}
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px 0 60px;
+}
+
+.card__title {
+    font-size: 2.1vh;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.card__links {
+    list-style-image: url("/resources/src/images/Ellipse.svg");
+    margin: 13px;
+}
+
+
+.card__benefits {
+    align-items: flex-end;
+    flex: 0 1 auto;
+}
+
+.card__grass {
+    flex: 0 0 auto;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
 }
