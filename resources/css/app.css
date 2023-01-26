@@ -68,13 +68,9 @@ main {
     background-size: cover;
     position: absolute;
     width: 100%;
-
+z-index: 2;
 }
 
-.header__logo__block {
-    display: flex;
-    align-items: center;
-}
 
 .header__language__btn_ {
     display: flex;
@@ -82,7 +78,7 @@ main {
 }
 
 .header__logo {
-    margin:18px 40px 18px 0;
+    margin: 18px 40px 18px 0;
 }
 
 .header__language__text {
@@ -111,20 +107,23 @@ main {
 }
 
 .phone__number__text:before {
-    content: url("/resources/src/images/phone.png");
+    content: url("/resources/src/images/phone.svg");
     position: relative;
     right: 12px;
     top: 10px;
 
 }
-.header__block__right{
+
+.header__block__right {
     display: flex;
 }
+
 .phone__number__text {
     color: white;
     font-size: 19px;
 }
-.header__phone__number{
+
+.header__phone__number {
 
     padding-right: 10px;
 }
@@ -136,16 +135,100 @@ main {
     text-align: start;
 
 }
-.phone__number__btn__block{
+
+.phone__number__btn__block {
     display: flex;
     flex-direction: column-reverse;
 
 }
+
 .header__request__btn {
     background-color: rgba(0, 172, 227, 1);
     color: white;
     padding: 13px 32px;
     border-radius: 8px;
     line-height: 17px;
-    margin: 5px;
+
+}
+
+.header__request__btn:hover {
+    background-color: #0182AB;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo__block {
+    display: flex;
+    align-items: center;
+}
+
+
+/*Главная страница*/
+.intro{
+    max-height: 100vh;
+    overflow: hidden;
+}
+.main__intro {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: auto;
+    z-index: -5;
+
+}
+
+.intro__video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.intro__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.intro__title{
+    color: white;
+    font-weight: 600;
+    font-size: 9.7vh;
+    padding: 60px;
+}
+.intro__text{
+    color: white;
+    font-weight: 600;
+    font-size: 3.6vh;
+}
+.intro__description{
+    color: white;
+    font-size: 6.6vh;
+    line-height: 70px;
+    margin-top: 100px;
+}
+
+.intro__btn{
+    padding: 22px 35px;
+    background-color: #FF0041;
+    color: white;
+    border-radius: 13px;
+}
+.intro__btn__block:after{
+    content:url("/resources/src/images/arow_btn.svg");
+    /*background-image: ;*/
+    position: relative;
+    right: 400px;
+
+}
+.intro__btn:hover{
+    background-color: rgba(202, 0, 51, 1);
 }
