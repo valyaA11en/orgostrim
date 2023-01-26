@@ -44,7 +44,14 @@ body {
     line-height: 30px;
     font-size: 15px;
 }
-
+/*Общие стили*/
+.title{
+    font-weight: 700;
+    font-size: 3.7vh;
+    line-height: 6.1vh;
+    margin-top: 57px;
+}
+/****************/
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -231,4 +238,14 @@ z-index: 2;
 }
 .intro__btn:hover{
     background-color: rgba(202, 0, 51, 1);
+}
+
+/*Наши товары*/
+.products__card__text{
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+}
+.card__title{
+
 }

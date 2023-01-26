@@ -52,7 +52,7 @@
     <main class="main">
         <div class="intro">
             <div class="main__intro">
-                <video class="intro__video" src="/resources/src/video/video.mov" autoplay muted></video>
+                <video class="intro__video" src="/resources/src/video/video.mov" autoplay muted loop></video>
             </div>
             <div class="intro__content">
                 <div class="container">
@@ -65,9 +65,39 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="products">
+                <div class="products__title">
+                    <p class="title">Наша продукция</p>
+                </div>
+                <div class="products__card">
+                    <div class="row">
+                        <div class="products__card__img col-md-3">
+                            <img src="/resources/src/images/product1.svg" alt="product1" class="card__img">
+                        </div>
+                        <div class="products__card__text col-md-7">
+                            <p class="card__title">ОргоСТим-Старт</p>
+                            <div class="card__wrapper">
+                                <p class="card__text">Органический стимулятор роста из микро и макроэлементов, гуминовых,
+                                    фульвовых и аминокислот для обработки семян, ростков и саженцев перед посадкой. Состав
+                                    на старте гарантированно обеспечит Ваши посевы, рассаду и саженцы сбалансированным
+                                    питанием и позволит получить:
+                                </p>
+                                <ul class="card__benefits">
+                                    <li class="__card__links">Мощные всходы</li>
+                                    <li class="__card__links">Быстрое развитие корневой системы</li>
+                                    <li class="__card__links">Повышение иммунитета к грибковым заболеваниям</li>
+                                    <li class="__card__links">Движения прорастания </li>
+                                </ul>
+                            </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, beatae culpa ea eos excepturi facilis
-            fugit iusto magnam nesciunt nihil nisi obcaecati officiis, omnis possimus quae quis sequi ullam veniam?</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">3</footer>
