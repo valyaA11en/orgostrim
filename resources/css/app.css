@@ -303,3 +303,78 @@ main {
     object-fit: cover;
     width: 100%;
 }
+
+.card__btn__block{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.card__btn {
+    padding: 15px 45px;
+    color: white;
+    background-color: #FF0041;
+    border-radius: 8px;
+}
+.card__btn:hover{
+    background-color: rgba(202, 0, 51, 1);
+}
+
+
+.composition__block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.composition__wrapper{
+    display: none;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECF4EC;
+    border-radius: 10px;
+}
+.composition__btn__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.composition__title__group{
+    display: flex;
+    gap: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 25px 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECF4EC;
+    border-radius: 10px;
+
+}
+.composition__text__group{
+    display: flex;
+    gap: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 25px 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECF4EC;
+    border-radius: 10px;
+}
+
+.composition__text__div{
+    display: flex;
+    gap: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 25px 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECF4EC;
+    border-radius: 10px;
+
+}
+.composition__text{
+    display: flex;
+    align-items: flex-end;
+    padding: 25px 40px;
+
+}
+

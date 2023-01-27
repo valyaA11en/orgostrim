@@ -1,2 +1,4 @@
-let qwe = $('.intro__btn')
-console.log(qwe)
+$('.composition__btn').click(function() {
+    $(this).next().toggle('slow');
+    return false;
+});

@@ -98,12 +98,35 @@
                                         <li class="card__links">Движения прорастания</li>
                                     </ul>
                                 </div>
+                                <div class="card__btn__block">
+                                    <a class="card__btn" href="#">Узнать цену</a>
+                                </div>
                                 <img class="card__grass" src="/resources/src/images/grass.svg" alt="grass">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="composition__block">
+                <a class="composition__btn" href="#">Показать состав</a>
+                <div class="composition__wrapper">
+                    <div class="composition__btn__content">
+                        <div class="composition__title__group">
+                            <p class="composition__title">Наименование элемента</p>
+                            <p class="composition__title">Содержание мг/кг (сух.вещества)</p>
+                        </div>
+                        <div class="composition__text__group">
+                            <div class="composition__text__div">
+                                <p class="composition__text">Аминоуксусная кислота</p>
+                            </div>
+                            <div class="composition__text__div">
+                                <p class="composition__text">Азот</p>
                             </div>
                         </div>
 
                     </div>
-
+                    <div class="composition__video">
+                    </div>
                 </div>
             </div>
         </div>
